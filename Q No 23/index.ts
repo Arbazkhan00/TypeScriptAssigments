@@ -1,0 +1,14 @@
+let x = 5;
+let y = 10;
+console.log("Is x < y? I predict true.");
+console.log(x < y);
+console.log("Is x > y? I predict false.");
+console.log(x > y);
+console.log("Is x == y? I predict false.");
+console.log(x == y);
+console.log("Is x != y? I predict true.");
+console.log(x != y);
+console.log("Is x >= y? I predict false.");
+console.log(x >= y);
+console.log("Is x <= y? I predict true.");
+console.log(x <= y);
