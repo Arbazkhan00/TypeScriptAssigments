@@ -1,0 +1,14 @@
+var placesToVisit = ["Pakistan", "Australia", "Iceland", "Thailand", "USA"];
+console.log("Original order: " + placesToVisit);
+console.log("Alphabetical order: " + placesToVisit.slice().sort());
+console.log("Original order: " + placesToVisit);
+console.log("Reverse alphabetical order: " + placesToVisit.slice().sort().reverse());
+console.log("Original order: " + placesToVisit);
+placesToVisit.reverse();
+console.log("Reversed order: " + placesToVisit);
+placesToVisit.reverse();
+console.log("Original order: " + placesToVisit);
+placesToVisit.sort();
+console.log("Alphabetical order: " + placesToVisit);
+placesToVisit.sort().reverse();
+console.log("Reverse alphabetical order: " + placesToVisit);
